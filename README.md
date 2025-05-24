@@ -5,11 +5,10 @@ This repository offers three classic machine-learning implementations in pure Py
 ## What’s Inside
 
 - **Stochastic-GD Logistic Regression**  
-  Binary classifier built from first principles. Illustrates how batch size and learning rate drive convergence and shape decision boundaries.
+  Implements logistic regression training with stochastic gradient descent. You can adjust batch size and learning rate to observe their impact on convergence speed and the shape of the decision boundary.
   
 - **Vectorized Linear Regression**  
-  Efficient least-squares fitting via gradient descent. Leverages NumPy matrix operations to compare performance against naive loops.
+  Uses NumPy vector operations to perform gradient-descent linear regression. Compare its execution time and clarity against a basic loop-based approach.
   
 - **ID3 Decision Tree**  
-  Entropy-based splits on categorical features. Demonstrates information gain calculations, recursive tree building, and majority-vote leaf labeling.
-
+  Builds a decision tree on categorical data by computing entropy and information gain. Shows you how recursive splits form the tree and how leaf nodes decide the final class by majority vote.
