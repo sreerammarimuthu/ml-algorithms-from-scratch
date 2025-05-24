@@ -2,7 +2,6 @@ import math
 import numpy as np
 
 # Linear Regression based upon gradient descent
-
 def compute_Phi(x,p):
     n = len(x)
     Phi = np.ones((n, 1))
