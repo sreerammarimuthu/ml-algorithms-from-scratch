@@ -1,4 +1,4 @@
-# Machine Learning Algorithms from scratch
+# ML Algorithms from scratch
 
 This repository offers three classic machine-learning implementations in pure Python/NumPy, no black-box libraries. Including Logistic Regression (SGD), Linear Regression (gradient descent), and ID3 Decision Tree implemented from scratch to break down core concepts through interactive, hands-on exploration. So we can see exactly how each algorithm learns from data. Transparent, framework-free implementations of essential ML models.
 
