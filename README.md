@@ -5,12 +5,11 @@ This repository offers three classic machine-learning implementations in pure Py
 ## Vectorized Linear Regression  
 Uses NumPy vector operations to perform gradient-descent linear regression. Compare its execution time and clarity against a basic loop-based approach. Loss plots from the experiments are attached below: 
 
-<h4>Constant LR = 0.01, Varying Epochs</h4>
+<h4>Constant `LR = 0.01`, Varying Epochs</h4>
 <img src="plots/Loss-Plot-1.png" alt="Loss Plot 1" width="600"/>
 
-<h4>Constant Epochs = 100, Varying LR</h4>
+<h4>Constant `Epochs = 100`, Varying LR</h4>
 <img src="plots/Loss-Plot-2.png" alt="Loss Plot 2" width="600"/>
-
 
 ## Stochastic-GD Logistic Regression    
 Implements logistic regression training with stochastic gradient descent. You can adjust batch size and learning rate to observe their impact on convergence speed and the shape of the decision boundary.  
