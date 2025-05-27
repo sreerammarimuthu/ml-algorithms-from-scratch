@@ -8,8 +8,7 @@ This repository offers three classic machine-learning implementations in pure Py
 - `credit-risk-data.txt` - Test data for ID3-Decision-tree algorithm.
 
 `plots/`  
-- `Loss-Plot-1` -  Loss plot from VLR exp. 1  
-- `Loss-Plot-2` - Loss plot from VLR exp. 2  
+- Loss plots of VLR experiments.  
 
 `python/`  
 - Three aforementioned algorithms in python. Each explained along with it's results below.  
