@@ -15,27 +15,26 @@ This repository offers three classic machine-learning implementations in pure Py
 
 ID3 DT Algorithm was tested on Credit-risk data. Information Gain by Attribute and Node Level are shown below   
 
-  | Attribute          | Root Node IG | 2nd Node IG | 3rd Node IG | 4th Node IG |
-  | ------------------ | ------------ | ----------- | ----------- | ----------- |
-  | **Income**         | **0.379**    | 0.000       | 0.000       | 0.000       |
-  | **Owns\_Property** | 0.252        | 0.000       | 0.000       | 0.000       |
-  | **Debt**           | 0.029        | 0.171       | **0.252**   | 0.000       |
-  | **Married?**       | 0.018        | **0.420**   | 0.000       | 0.000       |
-  | **Gender**         | 0.000        | 0.020       | **0.252**   | **1.000**   |
+| **Attribute**      | **Root Node (IG)** | **2nd Node (IG)** | **3rd Node (IG)** | **4th Node (IG)** |
+| ------------------ | ------------------ | ----------------- | ----------------- | ----------------- |
+| **Income**         | **0.379**          | 0.000             | 0.000             | 0.000             |
+| **Owns\_Property** | 0.252              | 0.000             | 0.000             | 0.000             |
+| **Debt**           | 0.029              | 0.171             | **0.252**         | 0.000             |
+| **Married?**       | 0.018              | **0.420**         | 0.000             | 0.000             |
+| **Gender**         | 0.000              | 0.020             | **0.252**         | **1.000**         |
 
-Final Decision Tree Structure for Credit-Risk Data   
+Final Decision Tree Structure for Credit-Risk Data:    
 
-  Income  
-├── High: Low  
-├── Medium: Low  
-└── Low  
-    └── Married?  
-        ├── Yes: High  
-        └── No  
-            └── Debt  
-                ├── Low: Low  
-                └── Medium  
-                    └── Gender  
-                        ├── Male: High  
-                        └── Female: Low  
-
+Income
+├── High: Low
+├── Medium: Low
+└── Low
+    └── Married?
+        ├── Yes: High
+        └── No
+            └── Debt
+                ├── Low: Low
+                └── Medium
+                    └── Gender
+                        ├── Male: High
+                        └── Female: Low
