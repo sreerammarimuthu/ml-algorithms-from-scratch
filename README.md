@@ -13,7 +13,7 @@ This repository offers three classic machine-learning implementations in pure Py
 - **ID3 Decision Tree**  
   Builds a decision tree on categorical data by computing entropy and information gain. Shows you how recursive splits form the tree and how leaf nodes decide the final class by majority vote.
 
-ID3 DT Algorithm was tested on credit-risk-data.txt. Information Gain by Attribute and Node Level are shown below   
+ID3 DT Algorithm was tested on credit-risk-data.txt; Information Gain by Attribute and Node Level are shown below   
 
 | **Attribute**      | **Root Node (IG)** | **2nd Node (IG)** | **3rd Node (IG)** | **4th Node (IG)** |
 | ------------------ | ------------------ | ----------------- | ----------------- | ----------------- |
