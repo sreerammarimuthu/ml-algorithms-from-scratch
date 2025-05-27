@@ -8,9 +8,11 @@ Implements logistic regression training with stochastic gradient descent. You ca
 ## Vectorized Linear Regression  
 Uses NumPy vector operations to perform gradient-descent linear regression. Compare its execution time and clarity against a basic loop-based approach. Loss plots from the experiments are attached below: 
 
-![LP1](plots/Loss-plot-1.png)   
-![LP2](plots/Loss-plot-2.png)   
+Constant LR=0.01 varying Epochs   
+![LP1](plots/Loss-Plot-1.png)   
 
+Constant Epochs=100 varying LR    
+![LP2](plots/Loss-Plot-2.png)     
 
 ## ID3 Decision Tree  
 Builds a decision tree on categorical data by computing entropy and information gain. Shows you how recursive splits form the tree and how leaf nodes decide the final class by majority vote.
