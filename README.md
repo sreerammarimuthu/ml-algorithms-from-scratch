@@ -25,7 +25,7 @@ ID3 DT Algorithm was tested on Credit-risk data. Information Gain by Attribute a
 
 Final Decision Tree Structure for Credit-Risk Data:    
 
-''''
+```
 Income
 ├── High: Low
 ├── Medium: Low
@@ -39,4 +39,4 @@ Income
                     └── Gender
                         ├── Male: High
                         └── Female: Low
-''''
+```
