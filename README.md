@@ -2,13 +2,25 @@
 
 This repository offers three classic machine-learning implementations in pure Python/NumPy, no black-box libraries. Including Logistic Regression (SGD), Linear Regression (gradient descent), and ID3 Decision Tree implemented from scratch to break down core concepts through interactive, hands-on exploration. So we can see exactly how each algorithm learns from data. Transparent, framework-free implementations of essential ML models.
 
+## Contents   
+
+`data/`  
+- `credit-risk-data.txt` - Test data for ID3-Decision-tree algorithm.
+
+`plots/`  
+- `Loss-Plot-1` -  Loss plot from VLR exp. 1  
+- `Loss-Plot-2` - Loss plot from VLR exp. 2  
+
+`python/`  
+- Three aforementioned algorithms in python. Each explained along with it's results below.  
+
 ## Vectorized Linear Regression  
 Uses NumPy vector operations to perform gradient-descent linear regression. Compare its execution time and clarity against a basic loop-based approach. Loss plots from the experiments are attached below: 
 
-<h4>Constant `LR = 0.01`, Varying Epochs</h4>
+<h4>Constant LR = 0.01, Varying Epochs</h4>
 <img src="plots/Loss-Plot-1.png" alt="Loss Plot 1" width="600"/>
 
-<h4>Constant `Epochs = 100`, Varying LR</h4>
+<h4>Constant Epochs = 100, Varying LR</h4>
 <img src="plots/Loss-Plot-2.png" alt="Loss Plot 2" width="600"/>
 
 ## Stochastic-GD Logistic Regression    
